@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/mainlogo"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="By Jingzhou Wang"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Zhaoya Sun"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+</LinearLayout>
